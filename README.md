@@ -53,31 +53,31 @@ Inspired by [open-source churn dashboards](https://github.com/topics/churn-predi
 
 **Initial Insights:**
 
-	-	Contract type (tenure) is the strongest predictor of churn; customers on month-to-month contracts show the highest churn at almost 43%.
+-	Contract type (tenure) is the strongest predictor of churn; customers on month-to-month contracts show the highest churn at almost 43%.
 
-    ![Churn by Contract Type](assets/churn_by_contract.png)
+![Churn by Contract Type](assets/churn_by_contract.png)
 
-    -	Monthly charges is the second strongest predictor. This visualization reveals how customers who are paying less tend to be content with their plan and stay with their provider. On the other hand, customers paying over $80 a month churn disproportionately.
+-	Monthly charges is the second strongest predictor. This visualization reveals how customers who are paying less tend to be content with their plan and stay with their provider. On the other hand, customers paying over $80 a month churn disproportionately.
 
-    ![Charges vs Churn](assets/charges_hist.png)
+![Charges vs Churn](assets/charges_hist.png)
 
-	-	Automatic payment methods (credit card, bank transfer) are linked with lower churn compared to electronic check.
-	-	Internet service type matters: customers on fiber optic plans churn more than DSL customers.
+-	Automatic payment methods (credit card, bank transfer) are linked with lower churn compared to electronic check.
+-	Internet service type matters: customers on fiber optic plans churn more than DSL customers.
 
-    ![Payment and Internet](assets/payment_and_internet.png)
+![Payment and Internet](assets/payment_and_internet.png)
 
-    -	Class imbalance exists (fewer churners than non-churners), so precision/recall tradeoffs are important.
-	-	The baseline Random Forest achieved ~82% accuracy. Logistic Regression trades some accuracy for greater interpretability.
+-	Class imbalance exists (fewer churners than non-churners), so precision/recall tradeoffs are important.
+-	The baseline Random Forest achieved ~82% accuracy. Logistic Regression trades some accuracy for greater interpretability.
 
-    ![Feature Importance](assets/feature_importance.png)
+![Feature Importance](assets/feature_importance.png)
 
 
 **Future Hypotheses:**
 
-    •	Higher monthly charges increase churn risk, especially when combined with no additional services.
+•	Higher monthly charges increase churn risk, especially when combined with no additional services.
 
 **Recommendations**
 
-    •	Streamline and modernize payment methods.
+•	Streamline and modernize payment methods.
 
-    •	Retention strategies like longer contracts and bundled services may reduce churn.
+•	Retention strategies like longer contracts and bundled services may reduce churn.
