@@ -7,8 +7,11 @@ An interactive Streamlit app to explore churn patterns in telecom data. Shows ch
 
 **Features**
 	•	Interactive filters (tenure, charges, gender, contract type).
+ 
 	•	KPIs and churn visualizations.
+ 
 	•	Random Forest churn prediction with feature importance.
+ 
 	•	Downloadable filtered dataset.
 
 
@@ -34,9 +37,13 @@ assets/
 
 **Next Steps**
 •	Add more interactive graphs and advanced filtering options.
+
 •	Deploy live app on Streamlit Cloud.
+
 •	Incorporate additional ML models (Logistic Regression, XGBoost) for comparison.
+
 •	Address class imbalance with resampling or weighted models.
+
 •	Expand insights with customer segmentation analysis.
 
 
